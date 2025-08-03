@@ -1,0 +1,160 @@
+body {
+    font-family: arial;
+
+    padding-top: 110px;
+    padding-left: 205px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+   }
+
+.header {
+    height: 60px;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0.1px 2px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: #54BAB9;
+}
+
+.navbar {
+    position: fixed;
+    top: 90px;
+    bottom: 0;
+    left: 0;
+    width:64px;
+    background-color: #54BAB9;
+    box-shadow: 0 0.5px 1px;
+    display: flex;
+    flex-direction: column;
+    z-index: 22;
+}
+
+i {
+    font-size: 30px;
+    margin-top: 38px;
+    margin-bottom: 60px;
+    margin-left: -29px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+
+i:hover {
+    background-color: #4ca1a0;
+}
+
+.main-section {
+    display: block;
+    margin-bottom: 56px;
+    padding-bottom: 60px;
+}
+
+.profile {
+display: flex;
+padding-left: 160px;
+flex: 1;
+
+
+}
+
+.pic1 {
+    width: 300px;
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+.pro-info {
+    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.knownname {
+    font-size: 20px;
+    text-align: center;
+}
+
+.age, .pob, .whd {
+    font-size: 14px;
+}
+
+.bio {
+    display: flex;
+    
+    margin-top: 180px;
+    padding-right: 100px;
+    flex: 1;
+}
+
+.bio-info {
+    font-size: 15px;
+    margin-right: 60px;
+    padding-left: 60px;
+    
+}
+.gay {
+    width: 400px;
+    border-radius: 2px;
+}
+
+.namech {
+    margin-top: 180px;
+    display: flex;
+}
+
+.namech-info {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+
+}
+.fo2 {
+    width: 500px;
+    height: 350px;
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+.earlife {
+    display: flex;
+    margin-top: 180px;
+    padding-right: 100px;
+    flex: 1;
+}
+
+.earlife-info {
+    font-size: 15px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 60px;
+    padding-left: 60px;
+}
+.FO {
+    font-size: 22px;
+    font-weight: bold;
+}
+
